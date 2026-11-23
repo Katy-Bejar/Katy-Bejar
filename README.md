@@ -1,104 +1,141 @@
-\documentclass[10.5pt,a4paper]{article}
-% CV adaptado a Dominix - Desarrolladora Junior, formato ATS, dos páginas.
-\usepackage[a4paper,left=1.65cm,right=1.65cm,top=1.35cm,bottom=1.32cm]{geometry}
-\usepackage{fontspec}
-\setmainfont{Carlito}
-\usepackage[spanish,es-noquoting]{babel}
-\usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage{xcolor}
-\usepackage{microtype}
-\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,pdfauthor={Katherine Nikole Béjar Román},pdftitle={CV Katherine Béjar - Desarrolladora Full Stack Junior - Dominix}}
-\definecolor{ink}{HTML}{193044}
-\definecolor{muted}{HTML}{465E6D}
-\definecolor{rule}{HTML}{A7C1D2}
-\color{ink}
-\pagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{2pt}
-\setlength{\emergencystretch}{2.5em}
-\setlist[itemize]{leftmargin=1.35em,topsep=2pt,itemsep=1.5pt,parsep=0pt,partopsep=0pt}
-\titleformat{\section}{\bfseries\fontsize{11.1}{13}\selectfont\color{ink}}{}{0pt}{}[\color{rule}\titlerule]
-\titlespacing*{\section}{0pt}{8pt}{4pt}
-\newcommand{\role}[3]{%
-\textbf{#1}\hfill\textbf{#2}\\[-2pt]
-{\color{muted}\itshape #3}\par\vspace{-4pt}}
-\newcommand{\project}[3]{\textbf{#1}\hfill{\color{muted}\textbf{#2}}\\[-1pt]{\color{muted}\itshape #3}\par\vspace{-4pt}}
-\begin{document}
-\begin{center}
-{\fontsize{19}{21}\selectfont\bfseries Katherine Nikole Béjar Román}\\[3pt]
-{\fontsize{11.7}{13.4}\selectfont\bfseries Desarrolladora Full Stack Junior | React, Laravel, Node.js y SQL}\\[4pt]
-Arequipa, Perú \quad|\quad +51 944 818 827 \quad|\quad \href{mailto:kbejarr@gmail.com}{kbejarr@gmail.com}\\[2pt]
-\href{https://www.linkedin.com/in/katherine-nikole-bejar-roman/}{linkedin.com/in/katherine-nikole-bejar-roman}\quad|\quad \href{https://github.com/Katy-Bejar}{github.com/Katy-Bejar}
-\end{center}
-\vspace{-10pt}
 
-\section{Perfil profesional}
-Bachiller en Ciencia de la Computación por la Universidad Nacional de San Agustín de Arequipa, con experiencia en \textbf{desarrollo full stack, aplicaciones web responsivas, APIs REST e integración de bases de datos}. He trabajado con \textbf{PHP/Laravel, React/Next.js y Node.js} en sistemas internos, intranets y sitios web, además de Python/FastAPI, MySQL y AWS en plataformas empresariales. Manejo \textbf{SQL, PostgreSQL y Tailwind CSS} como parte de mis competencias técnicas. También he participado en integraciones, automatizaciones y soluciones con \textbf{agentes de IA y modelos de lenguaje (LLM)}. Busco aportar al desarrollo de soluciones web mantenibles, colaborando en todo el ciclo de construcción y mejora del software.
+# ¡Hola! Soy Katherine Béjar 👋
 
-\section{Tecnologías y competencias}
-\textbf{Frontend:} JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, HTML5, CSS3, diseño responsivo.\\
-\textbf{Backend:} PHP, Laravel, Node.js, Express.js, Python, FastAPI, APIs REST, JSON, webhooks e integración entre servicios.\\
-\textbf{Bases de datos:} PostgreSQL, MySQL, SQL, SQLite, Supabase, AWS RDS; consultas, validación y persistencia de datos.\\
-\textbf{Herramientas y despliegue:} Git, GitHub, GitHub Actions, Docker, AWS (EC2, RDS, S3), Vercel y CI/CD.\\
-\textbf{IA y automatización:} Mastra, DeepSeek (LLM), agentes conversacionales, IBM Watson Assistant, Meta WhatsApp Business y Kapso; pruebas funcionales y de integración.
+### Full Stack Developer | React · Laravel · Node.js · Python · APIs REST
 
-\section{Experiencia profesional}
-\role{Desarrolladora Full Stack / Backend --- TIC CORP S.A.C.}{Mar 2026 -- Nov 2026}{Python, FastAPI, Node.js, MySQL, AWS, Mastra, DeepSeek \quad|\quad Arequipa, Perú}
-\begin{itemize}
-  \item Desarrollé e integré \textbf{servicios backend y APIs REST} para una plataforma empresarial multiempresa, con validaciones, consultas SQL y persistencia de información en \textbf{MySQL sobre AWS RDS}.
-  \item Participé en el desarrollo de un motor de \textbf{alertas accionables y automatizaciones}, conectando datos del ERP, eventos, notificaciones y acciones de usuarios entre distintos servicios.
-  \item Colaboré en \textbf{ALBA}, un agente de IA integrado con WhatsApp (Meta y Kapso), y en workflows con \textbf{Mastra y DeepSeek (LLM)}, utilizando webhooks, formularios y APIs REST.
-  \item Realicé pruebas funcionales y de integración, investigué incidencias y validé controles contra operaciones duplicadas; apoyé despliegues con \textbf{Docker, GitHub Actions y AWS EC2}.
-\end{itemize}
+Soy **bachiller en Ciencia de la Computación por la Universidad Nacional de San Agustín de Arequipa**.
 
-\role{Desarrolladora Full Stack --- Neon House LED S.A.C.}{Mar 2025 -- Jun 2025}{PHP, Laravel, React, Next.js, MySQL \quad|\quad Arequipa, Perú}
-\begin{itemize}
-  \item \textbf{Migré funcionalidades de un sistema interno de PHP a Laravel}, mejorando la organización del backend y facilitando su mantenimiento.
-  \item Desarrollé y adapté \textbf{interfaces web responsivas con React y Next.js} durante la modernización de la intranet corporativa.
-  \item Integré componentes del frontend, lógica del backend y consultas a \textbf{MySQL} durante la transición tecnológica.
-\end{itemize}
+Me interesa desarrollar aplicaciones web, soluciones backend y sistemas que integren datos, automatización e inteligencia artificial.
 
-\role{Desarrolladora Full Stack --- Auro Laboratorio e Ingeniería S.A.C.}{Feb 2025 -- May 2025}{React, Next.js, Node.js, MySQL \quad|\quad Arequipa, Perú}
-\begin{itemize}
-  \item Desarrollé un \textbf{sitio web institucional responsivo con React y Next.js}, mejorando la navegación y la experiencia en dispositivos móviles.
-  \item Integré funcionalidades dinámicas con \textbf{Node.js y MySQL} para gestionar y presentar información del sitio.
-\end{itemize}
+📍 Arequipa, Perú  
+🌎 Interesada en oportunidades de desarrollo remoto.
 
-\newpage
-\section{Proyectos destacados}
-\project{Plataforma web gamificada para comunidad musical}{2026}{Next.js, React, Supabase, Tailwind CSS, Vercel, PWA}
-\begin{itemize}
-  \item Desarrollé una \textbf{aplicación web con React y Next.js} con modos de juego, rankings, recompensas y seguimiento del progreso de usuarios, utilizando \textbf{Tailwind CSS} para la interfaz.
-  \item Integré autenticación, gestión de usuarios y almacenamiento de datos con \textbf{Supabase}; desplegué la aplicación en \textbf{Vercel} y adapté su experiencia móvil como \textbf{PWA}.
-\end{itemize}
+---
 
-\project{EasyProcess --- Plataforma interactiva con chatbot}{2022}{Python, Flask, SQLite, HTML, CSS, IBM Watson Assistant}
-\begin{itemize}
-  \item Desarrollé una aplicación web para consultas estudiantiles, combinando interfaz, backend en \textbf{Flask}, almacenamiento en \textbf{SQLite} y un chatbot para responder consultas de matrícula y procesos académicos.
-  \item Según la evaluación del proyecto, se redujeron en más de un 50\% las consultas directas a secretaría. \href{https://github.com/Katy-Bejar/EasyProcess}{Ver repositorio en GitHub}.
-\end{itemize}
+## 🛠️ Tecnologías
 
-\project{BioVisualizer --- Análisis y visualización de secuencias biológicas}{2024}{Python, Flask, BioPython, NumPy, SciPy, HTML, CSS}
-\begin{itemize}
-  \item Implementé algoritmos de análisis de secuencias biológicas, clustering y visualizaciones interactivas para datos de proteínas, ADN y ARN.
-  \item Integré procesamiento de datos en Python con una interfaz web. \href{https://github.com/Katy-Bejar/Visualizator}{Ver repositorio en GitHub}.
-\end{itemize}
+**Frontend:** React, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML, CSS.
 
-\project{Detección de enfermedades en hojas de tomate (Deep Learning)}{2024}{Python, PlantVillage, EfficientNetV2, ResNet50V2, DenseNet121}
-\begin{itemize}
-  \item Entrené y comparé modelos de aprendizaje profundo mediante transfer learning, fine-tuning y preprocesamiento de imágenes.
-  \item Generé reportes automatizados de métricas y resultados. \href{https://github.com/Katy-Bejar/Enfermedades-en-las-hojas-de-las-plantas-de-tomate}{Ver repositorio en GitHub}.
-\end{itemize}
+**Backend:** Laravel, PHP, Node.js, Express.js, Python, FastAPI, APIs REST.
 
-\section{Educación}
-\textbf{Universidad Nacional de San Agustín de Arequipa (UNSA)} \hfill 2020 -- Ene 2026\\[-1pt]
-\textbf{Bachiller en Ciencia de la Computación} \quad|\quad Grado obtenido en mayo de 2026.
+**Bases de datos:** PostgreSQL, MySQL, SQLite, Supabase.
 
-\section{Certificaciones}
-\textbf{AWS Academy Cloud Foundations} \quad|\quad \textbf{AWS Academy Cloud Architecting}.
+**Cloud y herramientas:** AWS, Docker, Git, GitHub Actions, Vercel.
 
-\section{Idiomas}
-\textbf{Español:} nativo. \quad \textbf{Inglés:} intermedio (lectura y comprensión escrita). \quad \textbf{Portugués:} intermedio (comprensión y conversación).
-\end{document}
+**IA e integraciones:** Mastra, DeepSeek (LLM), IBM Watson Assistant, Webhooks, WhatsApp Business Platform.
+
+---
+
+## 💻 Proyectos destacados
+
+### 🌡️ Sensor Monitoring
+Sistema web para visualizar datos de temperatura y humedad.
+
+- **Tecnologías:** Laravel, PHP, Chart.js.
+- Gráficos interactivos.
+- Visualización de registros.
+- Diseño responsivo.
+
+[🔗 Ver repositorio](https://github.com/Katy-Bejar/sensor-monitoring)
+
+### 🤖 EasyProcess
+Plataforma académica con chatbot inteligente para consultas estudiantiles.
+
+- **Tecnologías:** Python, Flask, SQLite, IBM Watson Assistant.
+- Automatización de consultas frecuentes.
+- Gestión de información académica.
+- Integración de chatbot.
+
+[🔗 Ver repositorio](https://github.com/Katy-Bejar/EasyProcess)
+
+### 🧬 BioVisualizer
+Aplicación web para análisis y visualización de secuencias biológicas.
+
+- **Tecnologías:** Python, Flask, BioPython, NumPy, SciPy.
+- Análisis de ADN, ARN y proteínas.
+- Algoritmos de alineamiento.
+- Visualización de resultados.
+
+[🔗 Ver repositorio](https://github.com/Katy-Bejar/Visualizator)
+
+### 🍅 Detección de enfermedades en hojas de tomate
+Proyecto de Deep Learning para clasificar enfermedades en cultivos.
+
+- **Tecnologías:** Python, TensorFlow, EfficientNetV2.
+- Procesamiento de imágenes.
+- Entrenamiento de modelos.
+- Evaluación de resultados.
+
+[🔗 Ver repositorio](https://github.com/Katy-Bejar/Enfermedades-en-las-hojas-de-las-plantas-de-tomate)
+
+---
+
+## 👩‍💻 Experiencia profesional
+
+### TIC CORP S.A.C. | Desarrolladora Full Stack / Backend
+**Marzo 2026 – Noviembre 2026**
+
+- Desarrollo e integración de APIs REST para plataformas empresariales.
+- Trabajo con Python, FastAPI, MySQL y AWS.
+- Automatización de procesos y alertas operativas.
+- Participación en el desarrollo de agentes de inteligencia artificial.
+- Integración de Mastra, DeepSeek y servicios de WhatsApp.
+- Pruebas funcionales, integración y despliegues.
+
+### Neon House LED S.A.C. | Desarrolladora Full Stack
+**Marzo 2025 – Junio 2025**
+
+- Migración de funcionalidades de PHP a Laravel.
+- Desarrollo de interfaces con React y Next.js.
+- Modernización de intranet corporativa.
+- Integración de MySQL.
+
+### Auro Laboratorio e Ingeniería S.A.C. | Desarrolladora Full Stack
+**Febrero 2025 – Mayo 2025**
+
+- Desarrollo de aplicaciones web con React y Next.js.
+- Integración de Node.js y MySQL.
+- Implementación de interfaces responsivas.
+
+---
+
+## 🤖 Inteligencia Artificial y Automatización
+
+He participado en el desarrollo de **ALBA**, un agente conversacional de inteligencia artificial integrado con WhatsApp y servicios empresariales.
+
+**Tecnologías y herramientas:**
+- Mastra y workflows.
+- DeepSeek y modelos de lenguaje (LLM).
+- Meta WhatsApp Business Platform.
+- Kapso y WhatsApp Flows.
+- Webhooks y APIs REST.
+- Automatización de procesos empresariales.
+
+*Los repositorios profesionales privados no se publican por confidencialidad.*
+
+---
+
+## 🎓 Educación
+
+**Universidad Nacional de San Agustín de Arequipa (UNSA)**
+
+Bachiller en Ciencia de la Computación.
+
+## 🏅 Certificaciones
+
+- AWS Academy Cloud Foundations.
+- AWS Academy Cloud Architecting.
+
+---
+
+## 📬 Contacto
+
+📧 **Correo:** [kbejarr@gmail.com](mailto:kbejarr@gmail.com)
+
+💼 **LinkedIn:** [Katherine Béjar](https://www.linkedin.com/in/katherine-nikole-bejar-roman/)
+
+💻 **GitHub:** [Katy-Bejar](https://github.com/Katy-Bejar)
+
+---
+
+⭐ Me apasiona aprender nuevas tecnologías, resolver problemas y desarrollar soluciones útiles.
